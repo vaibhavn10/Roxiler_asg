@@ -1,0 +1,21 @@
+.dropdown:hover .dropdownMenu{
+    display: flex;
+    opacity: 1;
+}
+.dropdownTab:hover{
+    background-color: #eab308;
+}
+
+.scrollbarnone::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+    border-radius: 100%;
+}
+.scrollbarnone::-webkit-scrollbar-track{
+    background: #dddddd;
+    border-radius: 5px 5px 5px 5px;
+}
+.scrollbarnone::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px 5px 5px 5px;
+  }
